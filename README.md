@@ -22,7 +22,7 @@ Bring a new look to familiar games. DLSS5 neural rendering, optimized for Border
     <td align="center">Sora</td>
   </tr>
   <tr>
-    <td colspan="3" align="center">OFF / ON · Strength 1 · Local tone 1.5 · Structure 2 · Natural</td>
+    <td colspan="3" align="center">OFF / ON · Strength 1 · Local tone 1.5 · Structure 2 · Natural · Resolution 950</td>
   </tr>
 </table>
 
@@ -34,13 +34,4 @@ Bring a new look to familiar games. DLSS5 neural rendering, optimized for Border
 
 The download includes the compiled effect, weights and preset. Nothing to compile, no separate AI runtime to install. You can also add Neural Rendering to an existing effect chain.
 
-## Performance
-
-The effect adjusts lighting, tone and structure while keeping your game's output resolution. Speed depends on your GPU:
-
-| GPU | DirectX 12 | Vulkan |
-| --- | ---: | ---: |
-| RTX 3090 | 8.4 ms | 10.6 ms |
-| Steam Deck | — | 99.6 ms |
-
-Median inference time, excluding the game and presentation. Leave GPU headroom; Steam Deck isn't fast enough for real-time play with this effect. Stronger settings can introduce artifacts.
+Use **Inference resolution** to set the processing size. It defaults to 950 pixels on the longest edge, preserves the image's proportions and leaves smaller inputs alone. Your display resolution stays unchanged.
