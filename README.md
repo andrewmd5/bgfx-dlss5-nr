@@ -32,6 +32,4 @@ Bring a new look to familiar games. DLSS5 neural rendering, optimized for Border
 2. Choose **Install from GitHub** and paste `https://github.com/andrewmd5/bgfx-dlss5-nr`.
 3. Select the **DLSS5-NR** preset and enable effects. On Windows, use **Scaling (GPU)**.
 
-The download includes the compiled effect, weights and preset. Nothing to compile, no separate AI runtime to install. You can also add Neural Rendering to an existing effect chain.
-
-Use **Inference resolution** to set the processing size. It defaults to 950 pixels on the longest edge, preserves the image's proportions and leaves smaller inputs alone. Your display resolution stays unchanged.
+That's it—Borderless Gaming handles the download and setup. No DLLs to copy, no game files to change, and no extra tools to install. Start with the included settings and adjust the look to your taste.
