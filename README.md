@@ -28,8 +28,12 @@ Bring a new look to familiar games. DLSS5 neural rendering, optimized for Border
 
 ## Install
 
+Requires **Borderless Gaming 2.0.8 or newer**. If you used an earlier NR package, update the app and reinstall the effect using these steps.
+
 1. Open the effects editor in Borderless Gaming, or the presets screen in Holo.
 2. Choose **Install from GitHub** and paste `https://github.com/andrewmd5/bgfx-dlss5-nr`.
-3. Select the **DLSS5-NR** preset and enable effects. On Windows, use **Scaling (GPU)**.
+3. Select the **DLSS5-NR** preset and enable effects. On Windows, use **Clone**.
 
 That's it—Borderless Gaming handles the download and setup. No DLLs to copy, no game files to change, and no extra tools to install. Start with the included settings and adjust the look to your taste.
+
+Inference size is adjustable from 320 to 1920 and defaults to 960. The shader package uses DirectX 12 or Vulkan, depending on your renderer and GPU capabilities. DirectX requires Shader Model 6.10 and compatible matrix operations; Vulkan requires compatible cooperative-matrix operations. BGFX checks support before enabling the effect.
