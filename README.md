@@ -28,7 +28,7 @@ Bring a new look to familiar games. DLSS5 neural rendering, optimized for Border
 
 ## Install
 
-Requires **Borderless Gaming 2.0.8 or newer**. If you used an earlier NR package, update the app and reinstall the effect using these steps.
+Requires **Borderless Gaming 2.0.11 or newer**. If you used an earlier NR package, update the app and reinstall the effect using these steps.
 
 1. Open the effects editor in Borderless Gaming, or the presets screen in Holo.
 2. Choose **Install from GitHub** and paste `https://github.com/andrewmd5/bgfx-dlss5-nr`.
