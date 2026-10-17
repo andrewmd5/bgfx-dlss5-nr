@@ -2,6 +2,8 @@
 
 Bring a new look to familiar games. DLSS5 neural rendering, optimized for Borderless Gaming—with adjustable lighting, tone and structure, on more than just the latest NVIDIA GPUs.
 
+The latest release uses NVIDIA's smaller 310.9.16 model, with lower memory use and a smaller download. GPU processing time is 36–40% lower in 960×960 tests on the RTX 3090 and Intel Arc B580 using DirectX 12 and Vulkan.
+
 [Get Borderless Gaming on Steam](https://store.steampowered.com/app/388080/Borderless_Gaming/) · [Download the effect](https://github.com/andrewmd5/bgfx-dlss5-nr/releases/latest)
 
 <table>
