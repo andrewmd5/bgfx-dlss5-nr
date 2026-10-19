@@ -45,7 +45,7 @@ That's it—Borderless Gaming handles the download and setup. No DLLs to copy, n
 | DLSS5-NR (Large) | Original larger model, Standard style |
 | DLSS5-NR (Large, Natural) | Original larger model, Natural style |
 
-Existing NR presets continue to use Small after updating. Both models are installed together; switching presets selects the model. The release also includes separate Small and Large `.bgfxo` files for manual use.
+Existing NR presets continue to use Small after updating. Both models are installed together in the `.fxpkg`; switching presets selects the model.
 
 Small includes corrections to intermediate rounding and attention calculations. Large keeps the original model's appearance while benefiting from DirectX 12 optimizations. The models can produce different lighting, tone and detail at the same settings.
 
